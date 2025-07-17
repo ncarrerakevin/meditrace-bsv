@@ -102,3 +102,8 @@ POST /api/medicine/recall
 - **Blockchain:** BSV (Bitcoin SV)
 - **QR Codes:** qrcode library
 - **Storage:** In-memory (for demo)
+
+
+
+Acknowledgments
+Special thanks to Deggen and Áseir for their technical support and guidance in resolving implementation challenges during development.
