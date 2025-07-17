@@ -81,7 +81,7 @@ class BSVBlockchainService {
                 txId: mockTxId,
                 dataPayload,
                 success: true,
-                fee: 0.000001, // 1 satoshi en BSV
+                fee: 0.0000005, // BSV network fee as per official documentation
                 blockchainReady: true
             };
 
@@ -199,7 +199,7 @@ class BSVBlockchainService {
                 history: history.sort((a, b) => new Date(a.dataPayload.timestamp) - new Date(b.dataPayload.timestamp)),
                 blockchain: 'BSV',
                 network: this.network,
-                fee: 0.000001, // 1 satoshi
+                fee: 0.0000005, // BSV network fee as per official documentation
                 verificationTime: new Date().toISOString()
             };
 

@@ -163,7 +163,7 @@ function Register() {
                                     )}
 
                                     <div className="alert alert-info">
-                                        <small>💰 Transaction fee: $0.000001 (1 satoshi)</small>
+                                        <small>💰 Transaction fee: $0.0000005 (BSV network fee)</small>
                                     </div>
                                 </div>
                             ) : (

@@ -112,7 +112,7 @@ function Scanner() {
 
                                         <div className="alert alert-info">
                                             <small>
-                                                💰 Verification fee: $0.000001 (1 satoshi)<br/>
+                                                💰 Verification fee: $0.0000005 (network fee)<br/>
                                                 ✓ Verified on BSV blockchain at {new Date().toLocaleString()}
                                             </small>
                                         </div>
